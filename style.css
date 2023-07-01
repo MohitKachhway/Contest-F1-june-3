@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* <!-- navbar start --> */
+.navbar .container{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
+    margin-top:20px;
+    height: 60px;
+    border-bottom: 1px solid rgb(240, 236, 236);
+    position: sticky;
+}
+.logo{
+ padding: 10px;
+}
+.location h4,p{
+    margin: 0px 0px;
+}
+.location{
+    width: 100px;
+}
+.search{
+    position: relative;
+    display: flex;
+}
+.search-icon{
+    position: absolute;
+    top:9px;
+    left: 12px;
+}
+.search input{
+    width: 450px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(240, 236, 236);
+    border-radius: 12px;
+}
+.login-btn button{
+    border: none;
+    background-color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+/* .my-cart-btn{
+    position: relative;
+    display: flex;
+    border: none;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+.my-cart-btn .cart-btn button{
+    border: none;
+
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+} */
+.my-cart-btn .cart-btn{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.cart-btn p{
+  margin-top: 3px;
+}
+.my-cart-btn svg:hover{
+    transform: rotate(20deg);
+}
